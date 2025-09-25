@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Page d'inscription</title>
+</head>
+<body>
+    <div align="center">
+        <h2>Formulaire d'inscription</h2>
+
+        <form action="page1.html" method="get">
+            <table cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" name="nom" id="nom" placeholder="Nom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Prenom :</label></td>
+                    <td><input type="text" name="prenom" id="prenom" placeholder="Prenom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="example@mail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Mot de passe :</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Mot de passe" required></td>
+                </tr>
+                <tr>
+                    <td>Mode de paiement :</td>
+                    <td>
+                        <input type="radio" id="mvola" name="paiement" value="Mvola" required>
+                        <label for="mvola">Mvola</label><br>
+
+                        <input type="radio" id="airtel" name="paiement" value="Airtel Money">
+                        <label for="airtel">Airtel Money</label><br>
+
+                        <input type="radio" id="orange" name="paiement" value="Orange Money">
+                        <label for="orange">Orange Money</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="numero">Numero de telephone :</label></td>
+                    <td><input type="tel" id="numero" name="numero" placeholder="0331234567" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="S'inscrire">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
