@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Formulaire</title>
+	</head>
+	<body border=1>
+		<h1 align="center" >Se connecter</h1>
+		<form action="pageAccueil.html"  method="post">
+			<table align="center" cellpadding=10>
+				<tr>
+					<td><label for="nom" > Nom: </label></td>
+					<td><input type="text" id="nom" name="nom" pattern ="[a-zA-Z0-9]+" placeholder="Ecrire votre nom" required></td>
+				</tr>
+				<tr>
+					<td><label for="password">mot de passe: </label></td>
+					<td><input type="password" id="password" name="password" placeholder="Ecrire votre mot de passe" required></td>
+				</tr>
+				<tr>
+					<td align=center colspan=2><input type="submit" value="Envoyer"></td>
+				</tr>
+				<tr>
+					<td align=center colspan=2><a href="signup.html"> mot de passe oublié ?</a></td>
+				</tr>
+			</table>
+
+		
+		</form>
+
+	</body>

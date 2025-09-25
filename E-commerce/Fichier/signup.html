@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Formulaire</title>
+	</head>
+	<body border=1>
+		<h1 align="center" >Creation de compte</h1>
+		<form  action="pageAccueil.html" method="post">
+			<table align="center" cellpadding=10>
+				<tr>
+					<td><label for="nom" > Nom: </label></td>
+					<td><input type="text" id="nom" name="nom" pattern ="[a-zA-Z0-9_]+" placeholder="Ecrire votre nom" required></td>
+				</tr>
+				<tr>
+					<td><label for="email"> Email: </label></td>
+					<td><input type="email" id="email" name="email" pattern="[a-z]+@[a-z]+\.[a-z]+" placeholder="Ecrire votre email" required></td>
+				</tr>
+				<tr>
+					<td><label for="password">mot de passe: </label></td>
+					<td><input type="password" id="password" name="password" placeholder="Ecrire votre mot de passe" required></td>
+				</tr>
+				<tr>
+					<td><label for="passwd">Confirmation du mot de passe: </label></td>
+					<td><input type="password" id="passwd" name="passwd" placeholder="Ecrire à nouveau votre mot de passe" required></td>
+				</tr>
+
+				<tr>
+					<td align=center colspan=2><input type="submit" value="Envoyer"></td>
+				</tr>
+				<tr>
+					<td align=center colspan=2> Déja un compte ?<a href="signin.html" >se connecter</a></td>
+				</tr>
+			</table>
+
+		
+		</form>
+
+	</body>
