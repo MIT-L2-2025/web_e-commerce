@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <h1 align="center">Sign Up</h1>
+
+        <form autocomplete="on" action="login.php" method="post">
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td><label for="first-name">First Name:</label></td>
+                        <td><input type="text" id="first-name" name="first_name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="last-name">Last Name:</label></td>
+                        <td><input type="text" id="last-name" name="last_name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="username">Username:</label></td>
+                        <td><input type="text" id="username" name="username" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm-password">Confirm Password:</label></td>
+                        <td><input type="password" id="confirm-password" name="confirm_password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Birth Date:</label></td>
+                        <td><input type="date" id="date" name="birth_date" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sex">Gender: </label></td>
+                        
+                        <td><label for="M">M</label><input type="checkbox" id="sex" name="M"><label for="F">F</label><input type="checkbox" id="sex" name="F"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Tel:</label></td>
+                        <td>
+                            <input type="tel" id="phone" name="phone_number" placeholder="+261 xxxxxxxxx" pattern="^\+?[0-9]{7,15}$">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="Reset"></td>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
