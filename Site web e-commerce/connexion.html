@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Se connecter</title>
+    </head>
+
+    <body>
+        <h1 align="center">Connexion au compte</h1>
+
+        <form action="traitement.php" method="post">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="username">Nom d'utilisateur: </label>
+            <input type="text" id="username" name="username" placeholder="exemple: bema123" pattern="[A-Za-z0-9]+" required><br>
+            
+            <label for="password">Mot de passe: </label>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="submit" value="Se connecter">
+        </form>
+       
+    </body>
+</html>

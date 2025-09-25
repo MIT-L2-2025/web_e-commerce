@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Créer un compte</title>
+    </head>
+
+    <body>
+        <h1 align="center">Inscription</h1>
+
+        <form action="traitement.php" method="post">
+            <label for="nom">Nom: </label>
+            <input type="text" id="nom" name="nom" placeholder="exemple: Rakoto" pattern="[A-Za-z]+" required><br>
+            
+            <label for="prenom">Prénom: </label>
+            <input type="text" id="prenom" name="prenom" placeholder="exemple: Bema" pattern="[A-Za-z]+" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="username">Nom d'utilisateur: </label>
+            <input type="text" id="username" name="username" placeholder="exemple: bema123" pattern="[A-Za-z0-9]+" required><br>
+            
+            <label for="password">Mot de passe: </label>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="submit" value="S'inscrire">
+        </form>
+       
+    </body>
+</html>
