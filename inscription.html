@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inscription</title>
+    </head>
+    <body>
+        <h1>Inscription</h1>
+        <table>
+            <form action="connexion.html" >
+                <tr>
+                    <td>
+                        <label for="nom">Nom : </label>
+                        <input type="text" name="nom" id="nom" placeholder="Nom....." required>
+                    </td>
+                    
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="login">Login : </label>
+                        <input type="text" name="login" id="login" pattern="[A-Za-z0-9]+" placeholder="Nom utilisateur...." required>
+                    </td>
+                    
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nom">Email : </label>
+                        <input type="email" name="nom" id="nom" placeholder="Email....."  required>
+                    </td>
+                    
+                </tr>
+            
+                <tr>
+                    <td>   
+                        <label for="numero">Contact : </label>
+                        <input type="number" name="numero" id="numero" placeholder="Numero téléphone...." required>
+                    </td>
+                    
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="S'inscrire">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        
+    </body>
+</html>
