@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Inscription</title>
+    </head>
+    <body>
+         <h1> Formulaire d'inscription</h1>
+         <form action="traitement.php" method="get">
+             <label for="nom">Nom: </label><br>
+             <input type="text" id="nom" name="nom" placeholder="Saisir votre nom ..." required><br>
+
+             <label for="email">Email: </label><br>
+             <input type="email" id="email" name="email" placeholder="Votre adresse e-mail ..." required><br>
+
+	     <label for="phone">Numéro téléphone: <label><br>
+	     <input type="number" id="phone" name="phone" required><br>
+	     
+	     <label for="mdp">Mot de passe: </label><br>
+	     <input type="password" id="mdp" name="mdp" required><br>
+	     
+	     <label for="mdpc">Confirmer le mot de passe: </label><br>
+	      <input type="password" id="mdpc" name="mdpc" placeholder="Ressaisir votre mot de passe ..." required><br>
+	     
+             Indiquer votre mode de paiement:<br>
+             <label for="mvola">Mvola</label>
+             <input type="radio" id="mvola" name="paiement" value="mvola"><br>
+
+             <label for="airtel">Airtel Money</label>
+             <input type="radio" id="airtel" name="paiement" value="airtel"><br>
+  
+             <label for="orange">Orange Money</label>
+             <input type="radio" id="orange" name="paiement" value="orange"><br>
+    
+             <input type="submit" value="Envoyer"> <input type="reset" value="Effacer tout">
+    </body>
+</html>
