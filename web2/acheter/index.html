@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Acheter</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <a href="/web">Acceuil</a>
+                    <a href="/web/contact">Contact</a>
+                    <a href="/web/inscription">Inscription</a>
+                    <a href="/web/connexion">Connexion</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <form action="">
+        <form 
+			action=""
+			method="post"
+		>
+			<table>
+				<tr>
+					<td><label for="nom">Nom: </label></td>
+					<td><input id="nom" type="text" required /></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email: </label></td>
+					<td><input id="email" type="email" required /></td>
+				</tr>
+				<tr>
+					<td><label for="addresse">Addresse: </label></td>
+					<td><input type="text" id="addresse" required /></td>
+				</tr>
+                <tr>
+					<td><label for="num">Téléphone: </label></td>
+					<td><input type="number" id="num" required /></td>
+				</tr>
+                <tr>
+                    <td><label for="payement">Payement</label></td>
+                    <td>
+                        Mvola: &nbsp; <input type="radio" name="payement" id="payement" value="MVola" required />
+                        Orange Money: &nbsp; <input type="radio" name="payement" id="payement" value="Orange Money" required />
+                        Airtel Money: &nbsp; <input type="radio" name="payement" id="payement" value="Airtel Money" required />
+                    </td>
+                </tr>
+				<tr>
+					<td><button type="reset">Annuler</button></td>
+					<td><button type="submit">Payer 200$</button></td>
+				</tr>
+			</table>			
+		</form>
+    </form>
+</body>
+</html>
