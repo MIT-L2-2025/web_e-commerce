@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscription</title>
+</head>
+<body>
+    <h1>Bienvenue</h1>
+    <p>Veuillez remplir le formulaire ci-dessous pour créer votre compte.</p>
+    <hr>
+
+    <form action="acceuil.html" target="_blank" method="post">
+        <div>
+            <legend><strong>Informations personnelles</strong></legend>
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" maxlength="100" autofocus required><br><br>
+
+            <label for="prename">Prénom :</label><br>
+            <input type="text" id="prename" maxlength="100" required><br><br>
+
+            <label for="phone">Téléphone :</label><br>
+            <input type="tel" id="phone" maxlength="15" placeholder="ex: 0341234567" required><br><br>
+        </div>
+
+
+        <div>
+            <legend><strong>Identifiants de connexion</strong></legend>
+            <label for="username">Nom d'utilisateur :</label><br>
+            <input type="text" id="username" required><br><br>
+
+            <label for="password">Mot de passe :</label><br>
+            <input type="password" id="password" required><br><br>
+        </div>
+
+        <input type="submit" value="S'inscrire">
+        <input type="reset" value="Annuler">
+    </form>
+
+    <hr>
+    <p>Déjà inscrit ? <a href="login.html">Connectez-vous ici</a></p>
+</body>
+</html>
